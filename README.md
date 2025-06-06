@@ -14,29 +14,23 @@ Fast forward to now, I wanted a more robust, flexible, and scalable version — 
 
 ## Cool Features
 
-- Automatically scans your GitHub repos for open issues.
-- Sends reminders to keep things moving.
-- Runs seamlessly on Linux with cron jobs.
-- Easy to set up and customize.
-
-## The Tech Behind It
-
-- Python 3.x (because who doesn’t love Python?)
-- GitHub API (for all that repo goodness)
-- Cron (to keep it running on schedule)
-- Requests library (to talk with GitHub)
+- Automatically scans your GitHub repositories for open issues.
+- Sends reminder emails to relevant stakeholders.
+- Supports filtering and formatting of issues in the email.
+- Runs seamlessly on Linux using cron jobs for scheduling.
+- Uses Google Sheets for tracking and collaboration.
+- Easy to set up, configure, and customize to your workflow.
 
 ## How to Use It
 
-1. Clone this repo.
-2. Set up your GitHub personal access token.
-3. Schedule the script with cron.
-4. Watch it keep your open issues in check.
+### Prerequisites
 
-## Why It Matters for DevOps
-
-Automation and proactive tracking are at the heart of good DevOps. This tool helps you keep your projects tidy and on track by making sure open issues don’t get forgotten — freeing up your time to focus on what really matters.
+- Python 3.6 or higher
+- Access to a Google Sheets document for issue tracking
+- Google Cloud Service Account with Sheets API enabled (`credentials.json`)
+- Gmail account with an app password for sending emails
+- GitHub personal access token (if using GitHub API integration)
 
 ---
 
-Feel free to tweak this README or ask me for a ready-to-go `.md` file. Happy coding!
+Thank you for reading! 🙏
