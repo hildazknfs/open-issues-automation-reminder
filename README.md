@@ -4,7 +4,7 @@
 
 This project helps you keep track of important open issues by automatically sending reminder emails. It makes sure nothing important is forgotten and everyone stays updated on what needs attention!
 
-Built with Python and designed to run smoothly on Linux, it uses the GitHub API plus cron scheduling to make sure you stay on top of your repo’s open tasks — without the extra headache.
+Built with Python and designed to run smoothly on Linux, it uses the GitHub API plus cron scheduling to make sure you stay on top of your repo’s open tasks!
 
 ## Why Did I Build This?
 
